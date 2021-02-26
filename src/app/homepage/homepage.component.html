@@ -1,0 +1,72 @@
+<nav class="navbar navbar-light bg-light">
+    <p class="text-center">Scatter Data through Year.</p>
+  </nav>
+  
+  <div id="container">
+    <div id="chart">
+      <apx-chart
+      [series]="chartOptions.series"
+      [chart]="chartOptions.chart"
+      [dataLabels]="chartOptions.dataLabels"
+      [plotOptions]="chartOptions.plotOptions"
+      [yaxis]="chartOptions.yaxis"
+      [legend]="chartOptions.legend"
+      [fill]="chartOptions.fill"
+      [stroke]="chartOptions.stroke"
+      [tooltip]="chartOptions.tooltip"
+      [xaxis]="chartOptions.xaxis"
+      ></apx-chart>
+    </div>
+  </div>
+  
+  <div class="second-cotainer" style="padding-left: 40px">
+    <div class="card" style="width: 100%">
+      <div class="card-body">
+        <h5 class="card-title">Ratnapura Floods</h5>
+        <p class="card-text">
+          Torrential rains between the 11th and 19th May 2003, affected the
+          southern districts of Ratnapura, Matara, Hambantota, Kaluthara and
+          Galle. This was the worst natural disaster in 50 years in Sri Lanka.
+          Floods and landslides claimed 260 lives and destroyed schools, homes and
+          other infrastructure. Floodwaters have been from 5 to 20 feet deep
+          (higher than many rural houses). Many buildings had been submerged,
+          particularly in the Ratnapura district, where the city’s clock tower was
+          reported to be under 15 feet of water. The majority of homeless were
+          also located in the Ratnapura district. Forty-seven bodies were
+          recovered from one village after a landslide wiped out the entire
+          village. About 180,000 people had their homes damaged or destroyed, with
+          about 700 missing persons and over 129,000 families displaced. Some
+          120,000 people had been evacuated to schools and temples, and
+          helicopters were dropping emergency rations in villages that were cut
+          off and cannot be reached.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+  <p id="toolbar">
+    <mat-toolbar>
+      <span id="toolbar-heading">Areas of High Risk</span>
+    </mat-toolbar>
+  </p>
+  
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <!-- <mat-card-title>Shiba Inu</mat-card-title>
+        <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+      </mat-card-header>
+      <app-piechart></app-piechart>
+      <mat-card-content>
+        <p>
+          The Shiba Inu is the smallest of the six original and distinct spitz
+          breeds of dog from Japan. A small, agile dog that copes very well with
+          mountainous terrain, the Shiba Inu was originally bred for hunting.
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+    
