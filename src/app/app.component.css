@@ -55,11 +55,14 @@ div.disabled {
   }
 
   .example-card {
-    max-width: 400px;
+    max-width: 700px;
     margin-left: 40px;
   }
-  
-  .example-header-image {
-    background-size: cover;
+
+
+  .example-action-button {
+    margin-top: 8px;
+    margin-right: 8px;
   }
 
+  

@@ -1,6 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-
-
+import {ThemePalette} from '@angular/material/core';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +8,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 })
 export class AppComponent {
 
-  
+
 
 
 }

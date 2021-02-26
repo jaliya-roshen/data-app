@@ -15,6 +15,10 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatCardModule} from '@angular/material/card';
 import { CrowdsourcepageComponent } from './crowdsourcepage/crowdsourcepage.component';
 import { HomepageComponent } from './homepage/homepage.component';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatIconModule} from '@angular/material/icon';
+import { DatatimexComponent } from './datatimex/datatimex.component';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 const  appRoutes: Routes = [
   {path: '', component: HomepageComponent},
@@ -27,7 +31,8 @@ const  appRoutes: Routes = [
     PiechartComponent,
     LoadchartComponent,
     CrowdsourcepageComponent,
-    HomepageComponent
+    HomepageComponent,
+    DatatimexComponent
   ],
   imports: [
     BrowserModule,
@@ -38,6 +43,9 @@ const  appRoutes: Routes = [
     MatButtonModule,
     MatToolbarModule,
     MatCardModule,
+    MatTabsModule,
+    MatIconModule,
+    MatGridListModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [],
